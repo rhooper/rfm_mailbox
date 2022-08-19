@@ -35,8 +35,6 @@ import board
 import busio
 import digitalio
 
-import settings
-
 # pylint: disable=missing-function-docstring,missing-class-docstring
 if os.environ.get("INVOCATION_ID"):
     LOG_FORMAT = "%(levelname)s %(module)s %(filename)s:%(funcName)s:%(lineno)d %(threadName)s %(message)s"
